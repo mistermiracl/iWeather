@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS Country(
+    ID INT PRIMARY KEY AUTOINCREMENT,
+    Name TEXT,
+    Capital TEXT,
+    Region TEXT,
+    Lat DECIMAL(10, 10),
+    Lng DECIMAL(10, 10)
+);

@@ -1,3 +1,15 @@
-page-home {
+/**SCSS(SASS) FILE SHOULD NOT BE LINKED TO THE COMPONENT(PAGE IN THIS CASE) THROUGH DECORATOR, INTEAD JUST PLACE IT 
+IN THE SAME FOLDER AND IT WILL WORK FOR SOME REASON IT DOESNT HAVE TO DO WITH NOMENCLATURE EITHER*/
 
+page-home {
+    
+    $f-size: 17px;
+
+    font-size: $f-size;
+
+    ion-content {
+        div:nth-of-type(2) {
+            //background-color: blue;
+        }
+    }
 }
